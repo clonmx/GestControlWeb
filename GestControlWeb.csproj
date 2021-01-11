@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ABB3A2F4-D5B5-43BC-9166-D668B56E6DCA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GestControlWeb</RootNamespace>
+    <AssemblyName>GestControlWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap, Version=3.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.3.7\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.1.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.1.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.1.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.1.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.1.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization">
+      <HintPath>..\packages\Microsoft.Chart.Controls.3.5.30729\lib\net35\System.Web.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization.Design">
+      <HintPath>..\packages\Microsoft.Chart.Controls.3.5.30729\lib\net35\System.Web.DataVisualization.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization">
+      <HintPath>..\packages\Microsoft.Chart.Controls.3.5.30729\lib\net35\System.Windows.Forms.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization.Design">
+      <HintPath>..\packages\Microsoft.Chart.Controls.3.5.30729\lib\net35\System.Windows.Forms.DataVisualization.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.2.0.0\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Content\css\Movil.css" />
+    <Content Include="Content\Images\mov3.png" />
+    <Content Include="Content\img\MetroUI_OS_Android.png" />
+    <Content Include="Content\js\jquery-2.1.3.min.js" />
+    <Content Include="Content\js\PIE.htc" />
+    <Content Include="Content\js\rcswitcher-4.0.js" />
+    <Content Include="Content\js\rcswitcher-4.0.min.js" />
+    <Content Include="gc_imgs\640x640_05.png" />
+    <Content Include="gc_imgs\big20150305w17.jpg" />
+    <Content Include="gc_imgs\Chilectrablue.png" />
+    <Content Include="gc_imgs\eficiencia.jpg" />
+    <Content Include="gc_imgs\ERNC capacidad.jpg" />
+    <Content Include="gc_imgs\imagenes_empower_851273e1.jpg" />
+    <Content Include="gc_imgs\tarifa-flex-grafico.jpg" />
+    <Content Include="gc_imgs\tarifa-flex-grafico2.jpg" />
+    <Content Include="GestControl\Admin\AvisosUsuarios.aspx" />
+    <Content Include="GestControl\Login.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\960.css" />
+    <Content Include="Content\css\main.css" />
+    <Content Include="Content\css\rcswitcher.css" />
+    <Content Include="Content\css\rcswitcher.min.css" />
+    <Content Include="Content\css\reset.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\style.min.css" />
+    <Content Include="Content\Images\ajax-loader.gif" />
+    <Content Include="Content\Images\graph.png" />
+    <Content Include="Content\Images\icons-png\action-black.png" />
+    <Content Include="Content\Images\icons-png\action-white.png" />
+    <Content Include="Content\Images\icons-png\alert-black.png" />
+    <Content Include="Content\Images\icons-png\alert-white.png" />
+    <Content Include="Content\Images\icons-png\arrow-d-black.png" />
+    <Content Include="Content\Images\icons-png\arrow-d-l-black.png" />
+    <Content Include="Content\Images\icons-png\arrow-d-l-white.png" />
+    <Content Include="Content\Images\icons-png\arrow-d-r-black.png" />
+    <Content Include="Content\Images\icons-png\arrow-d-r-white.png" />
+    <Content Include="Content\Images\icons-png\arrow-d-white.png" />
+    <Content Include="Content\Images\icons-png\arrow-l-black.png" />
+    <Content Include="Content\Images\icons-png\arrow-l-white.png" />
+    <Content Include="Content\Images\icons-png\arrow-r-black.png" />
+    <Content Include="Content\Images\icons-png\arrow-r-white.png" />
+    <Content Include="Content\Images\icons-png\arrow-u-black.png" />
+    <Content Include="Content\Images\icons-png\arrow-u-l-black.png" />
+    <Content Include="Content\Images\icons-png\arrow-u-l-white.png" />
+    <Content Include="Content\Images\icons-png\arrow-u-r-black.png" />
+    <Content Include="Content\Images\icons-png\arrow-u-r-white.png" />
+    <Content Include="Content\Images\icons-png\arrow-u-white.png" />
+    <Content Include="Content\Images\icons-png\audio-black.png" />
+    <Content Include="Content\Images\icons-png\audio-white.png" />
+    <Content Include="Content\Images\icons-png\back-black.png" />
+    <Content Include="Content\Images\icons-png\back-white.png" />
+    <Content Include="Content\Images\icons-png\bars-black.png" />
+    <Content Include="Content\Images\icons-png\bars-white.png" />
+    <Content Include="Content\Images\icons-png\bullets-black.png" />
+    <Content Include="Content\Images\icons-png\bullets-white.png" />
+    <Content Include="Content\Images\icons-png\calendar-black.png" />
+    <Content Include="Content\Images\icons-png\calendar-white.png" />
+    <Content Include="Content\Images\icons-png\camera-black.png" />
+    <Content Include="Content\Images\icons-png\camera-white.png" />
+    <Content Include="Content\Images\icons-png\carat-d-black.png" />
+    <Content Include="Content\Images\icons-png\carat-d-white.png" />
+    <Content Include="Content\Images\icons-png\carat-l-black.png" />
+    <Content Include="Content\Images\icons-png\carat-l-white.png" />
+    <Content Include="Content\Images\icons-png\carat-r-black.png" />
+    <Content Include="Content\Images\icons-png\carat-r-white.png" />
+    <Content Include="Content\Images\icons-png\carat-u-black.png" />
+    <Content Include="Content\Images\icons-png\carat-u-white.png" />
+    <Content Include="Content\Images\icons-png\check-black.png" />
+    <Content Include="Content\Images\icons-png\check-white.png" />
+    <Content Include="Content\Images\icons-png\clock-black.png" />
+    <Content Include="Content\Images\icons-png\clock-white.png" />
+    <Content Include="Content\Images\icons-png\cloud-black.png" />
+    <Content Include="Content\Images\icons-png\cloud-white.png" />
+    <Content Include="Content\Images\icons-png\comment-black.png" />
+    <Content Include="Content\Images\icons-png\comment-white.png" />
+    <Content Include="Content\Images\icons-png\delete-black.png" />
+    <Content Include="Content\Images\icons-png\delete-white.png" />
+    <Content Include="Content\Images\icons-png\edit-black.png" />
+    <Content Include="Content\Images\icons-png\edit-white.png" />
+    <Content Include="Content\Images\icons-png\eye-black.png" />
+    <Content Include="Content\Images\icons-png\eye-white.png" />
+    <Content Include="Content\Images\icons-png\forbidden-black.png" />
+    <Content Include="Content\Images\icons-png\forbidden-white.png" />
+    <Content Include="Content\Images\icons-png\forward-black.png" />
+    <Content Include="Content\Images\icons-png\forward-white.png" />
+    <Content Include="Content\Images\icons-png\gear-black.png" />
+    <Content Include="Content\Images\icons-png\gear-white.png" />
+    <Content Include="Content\Images\icons-png\grid-black.png" />
+    <Content Include="Content\Images\icons-png\grid-white.png" />
+    <Content Include="Content\Images\icons-png\heart-black.png" />
+    <Content Include="Content\Images\icons-png\heart-white.png" />
+    <Content Include="Content\Images\icons-png\home-black.png" />
+    <Content Include="Content\Images\icons-png\home-white.png" />
+    <Content Include="Content\Images\icons-png\info-black.png" />
+    <Content Include="Content\Images\icons-png\info-white.png" />
+    <Content Include="Content\Images\icons-png\location-black.png" />
+    <Content Include="Content\Images\icons-png\location-white.png" />
+    <Content Include="Content\Images\icons-png\lock-black.png" />
+    <Content Include="Content\Images\icons-png\lock-white.png" />
+    <Content Include="Content\Images\icons-png\mail-black.png" />
+    <Content Include="Content\Images\icons-png\mail-white.png" />
+    <Content Include="Content\Images\icons-png\minus-black.png" />
+    <Content Include="Content\Images\icons-png\minus-white.png" />
+    <Content Include="Content\Images\icons-png\navigation-black.png" />
+    <Content Include="Content\Images\icons-png\navigation-white.png" />
+    <Content Include="Content\Images\icons-png\phone-black.png" />
+    <Content Include="Content\Images\icons-png\phone-white.png" />
+    <Content Include="Content\Images\icons-png\plus-black.png" />
+    <Content Include="Content\Images\icons-png\plus-white.png" />
+    <Content Include="Content\Images\icons-png\power-black.png" />
+    <Content Include="Content\Images\icons-png\power-white.png" />
+    <Content Include="Content\Images\icons-png\recycle-black.png" />
+    <Content Include="Content\Images\icons-png\recycle-white.png" />
+    <Content Include="Content\Images\icons-png\refresh-black.png" />
+    <Content Include="Content\Images\icons-png\refresh-white.png" />
+    <Content Include="Content\Images\icons-png\search-black.png" />
+    <Content Include="Content\Images\icons-png\search-white.png" />
+    <Content Include="Content\Images\icons-png\shop-black.png" />
+    <Content Include="Content\Images\icons-png\shop-white.png" />
+    <Content Include="Content\Images\icons-png\star-black.png" />
+    <Content Include="Content\Images\icons-png\star-white.png" />
+    <Content Include="Content\Images\icons-png\tag-black.png" />
+    <Content Include="Content\Images\icons-png\tag-white.png" />
+    <Content Include="Content\Images\icons-png\user-black.png" />
+    <Content Include="Content\Images\icons-png\user-white.png" />
+    <Content Include="Content\Images\icons-png\video-black.png" />
+    <Content Include="Content\Images\icons-png\video-white.png" />
+    <Content Include="Content\Images\icons-svg\action-black.svg" />
+    <Content Include="Content\Images\icons-svg\action-white.svg" />
+    <Content Include="Content\Images\icons-svg\alert-black.svg" />
+    <Content Include="Content\Images\icons-svg\alert-white.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-d-black.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-d-l-black.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-d-l-white.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-d-r-black.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-d-r-white.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-d-white.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-l-black.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-l-white.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-r-black.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-r-white.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-u-black.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-u-l-black.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-u-l-white.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-u-r-black.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-u-r-white.svg" />
+    <Content Include="Content\Images\icons-svg\arrow-u-white.svg" />
+    <Content Include="Content\Images\icons-svg\audio-black.svg" />
+    <Content Include="Content\Images\icons-svg\audio-white.svg" />
+    <Content Include="Content\Images\icons-svg\back-black.svg" />
+    <Content Include="Content\Images\icons-svg\back-white.svg" />
+    <Content Include="Content\Images\icons-svg\bars-black.svg" />
+    <Content Include="Content\Images\icons-svg\bars-white.svg" />
+    <Content Include="Content\Images\icons-svg\bullets-black.svg" />
+    <Content Include="Content\Images\icons-svg\bullets-white.svg" />
+    <Content Include="Content\Images\icons-svg\calendar-black.svg" />
+    <Content Include="Content\Images\icons-svg\calendar-white.svg" />
+    <Content Include="Content\Images\icons-svg\camera-black.svg" />
+    <Content Include="Content\Images\icons-svg\camera-white.svg" />
+    <Content Include="Content\Images\icons-svg\carat-d-black.svg" />
+    <Content Include="Content\Images\icons-svg\carat-d-white.svg" />
+    <Content Include="Content\Images\icons-svg\carat-l-black.svg" />
+    <Content Include="Content\Images\icons-svg\carat-l-white.svg" />
+    <Content Include="Content\Images\icons-svg\carat-r-black.svg" />
+    <Content Include="Content\Images\icons-svg\carat-r-white.svg" />
+    <Content Include="Content\Images\icons-svg\carat-u-black.svg" />
+    <Content Include="Content\Images\icons-svg\carat-u-white.svg" />
+    <Content Include="Content\Images\icons-svg\check-black.svg" />
+    <Content Include="Content\Images\icons-svg\check-white.svg" />
+    <Content Include="Content\Images\icons-svg\clock-black.svg" />
+    <Content Include="Content\Images\icons-svg\clock-white.svg" />
+    <Content Include="Content\Images\icons-svg\cloud-black.svg" />
+    <Content Include="Content\Images\icons-svg\cloud-white.svg" />
+    <Content Include="Content\Images\icons-svg\comment-black.svg" />
+    <Content Include="Content\Images\icons-svg\comment-white.svg" />
+    <Content Include="Content\Images\icons-svg\delete-black.svg" />
+    <Content Include="Content\Images\icons-svg\delete-white.svg" />
+    <Content Include="Content\Images\icons-svg\edit-black.svg" />
+    <Content Include="Content\Images\icons-svg\edit-white.svg" />
+    <Content Include="Content\Images\icons-svg\eye-black.svg" />
+    <Content Include="Content\Images\icons-svg\eye-white.svg" />
+    <Content Include="Content\Images\icons-svg\forbidden-black.svg" />
+    <Content Include="Content\Images\icons-svg\forbidden-white.svg" />
+    <Content Include="Content\Images\icons-svg\forward-black.svg" />
+    <Content Include="Content\Images\icons-svg\forward-white.svg" />
+    <Content Include="Content\Images\icons-svg\gear-black.svg" />
+    <Content Include="Content\Images\icons-svg\gear-white.svg" />
+    <Content Include="Content\Images\icons-svg\grid-black.svg" />
+    <Content Include="Content\Images\icons-svg\grid-white.svg" />
+    <Content Include="Content\Images\icons-svg\heart-black.svg" />
+    <Content Include="Content\Images\icons-svg\heart-white.svg" />
+    <Content Include="Content\Images\icons-svg\home-black.svg" />
+    <Content Include="Content\Images\icons-svg\home-white.svg" />
+    <Content Include="Content\Images\icons-svg\info-black.svg" />
+    <Content Include="Content\Images\icons-svg\info-white.svg" />
+    <Content Include="Content\Images\icons-svg\location-black.svg" />
+    <Content Include="Content\Images\icons-svg\location-white.svg" />
+    <Content Include="Content\Images\icons-svg\lock-black.svg" />
+    <Content Include="Content\Images\icons-svg\lock-white.svg" />
+    <Content Include="Content\Images\icons-svg\mail-black.svg" />
+    <Content Include="Content\Images\icons-svg\mail-white.svg" />
+    <Content Include="Content\Images\icons-svg\minus-black.svg" />
+    <Content Include="Content\Images\icons-svg\minus-white.svg" />
+    <Content Include="Content\Images\icons-svg\navigation-black.svg" />
+    <Content Include="Content\Images\icons-svg\navigation-white.svg" />
+    <Content Include="Content\Images\icons-svg\phone-black.svg" />
+    <Content Include="Content\Images\icons-svg\phone-white.svg" />
+    <Content Include="Content\Images\icons-svg\plus-black.svg" />
+    <Content Include="Content\Images\icons-svg\plus-white.svg" />
+    <Content Include="Content\Images\icons-svg\power-black.svg" />
+    <Content Include="Content\Images\icons-svg\power-white.svg" />
+    <Content Include="Content\Images\icons-svg\recycle-black.svg" />
+    <Content Include="Content\Images\icons-svg\recycle-white.svg" />
+    <Content Include="Content\Images\icons-svg\refresh-black.svg" />
+    <Content Include="Content\Images\icons-svg\refresh-white.svg" />
+    <Content Include="Content\Images\icons-svg\search-black.svg" />
+    <Content Include="Content\Images\icons-svg\search-white.svg" />
+    <Content Include="Content\Images\icons-svg\shop-black.svg" />
+    <Content Include="Content\Images\icons-svg\shop-white.svg" />
+    <Content Include="Content\Images\icons-svg\star-black.svg" />
+    <Content Include="Content\Images\icons-svg\star-white.svg" />
+    <Content Include="Content\Images\icons-svg\tag-black.svg" />
+    <Content Include="Content\Images\icons-svg\tag-white.svg" />
+    <Content Include="Content\Images\icons-svg\user-black.svg" />
+    <Content Include="Content\Images\icons-svg\user-white.svg" />
+    <Content Include="Content\Images\icons-svg\video-black.svg" />
+    <Content Include="Content\Images\icons-svg\video-white.svg" />
+    <Content Include="Content\Images\mov1.png" />
+    <Content Include="Content\Images\mov2.png" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\assets\facebook_32.png" />
+    <Content Include="Content\img\assets\flickr_32.png" />
+    <Content Include="Content\img\assets\rss_32.png" />
+    <Content Include="Content\img\assets\twitter_32.png" />
+    <Content Include="Content\img\blurb-bottom-gradient.png" />
+    <Content Include="Content\img\button1.png" />
+    <Content Include="Content\img\button2.png" />
+    <Content Include="Content\img\button3.png" />
+    <Content Include="Content\img\featured-transpa-strip.png" />
+    <Content Include="Content\img\footer-bg.jpg" />
+    <Content Include="Content\img\header-bg.jpg" />
+    <Content Include="Content\img\highlight.png" />
+    <Content Include="Content\img\large-phone.png" />
+    <Content Include="Content\img\logo-site-hl.png" />
+    <Content Include="Content\img\logoname.png" />
+    <Content Include="Content\img\nav-bg.png" />
+    <Content Include="Content\img\phone-widget.jpg" />
+    <Content Include="Content\img\phone1.jpg" />
+    <Content Include="Content\img\phone2.jpg" />
+    <Content Include="Content\img\phone3.jpg" />
+    <Content Include="Content\img\thumb01.png" />
+    <Content Include="Content\img\thumb02.png" />
+    <Content Include="Content\img\vertsep.png" />
+    <Content Include="Content\img\_old-school\button-a.png" />
+    <Content Include="Content\img\_old-school\button-b.png" />
+    <Content Include="Content\img\_old-school\button1a.png" />
+    <Content Include="Content\img\_old-school\button1b.png" />
+    <Content Include="Content\img\_old-school\button2a.png" />
+    <Content Include="Content\img\_old-school\button2b.png" />
+    <Content Include="Content\img\_old-school\button3a.png" />
+    <Content Include="Content\img\_old-school\button3b.png" />
+    <Content Include="Content\jquery.mobile-1.4.5.css" />
+    <Content Include="Content\jquery.mobile-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.external-png-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.external-png-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.icons-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.icons-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.inline-png-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.inline-png-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.inline-svg-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.inline-svg-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.structure-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.structure-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.theme-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.theme-1.4.5.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GestControl\Admin\Administracion.aspx" />
+    <Content Include="GestControl\Admin\AvisosInformativos.aspx" />
+    <Content Include="GestControl\Charts\LecturaAnual.aspx" />
+    <Content Include="GestControl\Charts\LecturaDiaria.aspx" />
+    <Content Include="GestControl\Charts\LecturaMensual.aspx" />
+    <Content Include="GestControl\Charts\Lecturas.aspx" />
+    <Content Include="GestControl\Control.aspx" />
+    <Content Include="GestControl\DatosUsuario.aspx" />
+    <Content Include="GestControl\Admin\Notificaciones_Usuarios.aspx" />
+    <Content Include="GestControl\NotificacionHorarioPunta.aspx" />
+    <Content Include="Scripts\ai.0.22.19-build00125.js" />
+    <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="WebService\Servicio_WebMonitoreo.asmx" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Bundle.config" />
+    <Content Include="Content\App\GestControl_local.apk" />
+    <Content Include="Content\App\GestControl_publico.apk" />
+    <None Include="Properties\PublishProfiles\GestControl Web.pubxml" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Site.Master" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Site.Mobile.Master" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GestControl\Admin\AvisosUsuarios.aspx.cs">
+      <DependentUpon>AvisosUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Admin\AvisosUsuarios.aspx.designer.cs">
+      <DependentUpon>AvisosUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\Servicio_WebMonitoreo.cs">
+      <SubType>Component</SubType>
+    </Content>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Admin\Administracion.aspx.cs">
+      <DependentUpon>Administracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Admin\Administracion.aspx.designer.cs">
+      <DependentUpon>Administracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Admin\AvisosInformativos.aspx.cs">
+      <DependentUpon>AvisosInformativos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Admin\AvisosInformativos.aspx.designer.cs">
+      <DependentUpon>AvisosInformativos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Charts\LecturaAnual.aspx.cs">
+      <DependentUpon>LecturaAnual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Charts\LecturaAnual.aspx.designer.cs">
+      <DependentUpon>LecturaAnual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Charts\LecturaDiaria.aspx.cs">
+      <DependentUpon>LecturaDiaria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Charts\LecturaDiaria.aspx.designer.cs">
+      <DependentUpon>LecturaDiaria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Charts\LecturaMensual.aspx.cs">
+      <DependentUpon>LecturaMensual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Charts\LecturaMensual.aspx.designer.cs">
+      <DependentUpon>LecturaMensual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Charts\Lecturas.aspx.cs">
+      <DependentUpon>Lecturas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Charts\Lecturas.aspx.designer.cs">
+      <DependentUpon>Lecturas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Control.aspx.cs">
+      <DependentUpon>Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Control.aspx.designer.cs">
+      <DependentUpon>Control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\DatosUsuario.aspx.cs">
+      <DependentUpon>DatosUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\DatosUsuario.aspx.designer.cs">
+      <DependentUpon>DatosUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\Admin\Notificaciones_Usuarios.aspx.cs">
+      <DependentUpon>Notificaciones_Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\Admin\Notificaciones_Usuarios.aspx.designer.cs">
+      <DependentUpon>Notificaciones_Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestControl\NotificacionHorarioPunta.aspx.cs">
+      <DependentUpon>NotificacionHorarioPunta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestControl\NotificacionHorarioPunta.aspx.designer.cs">
+      <DependentUpon>NotificacionHorarioPunta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GestControlBusiness\GestControlBusiness.csproj">
+      <Project>{327ae489-b5ab-438c-a9dd-e11f5ba4e4c9}</Project>
+      <Name>GestControlBusiness</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12120</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:12120/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

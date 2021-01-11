@@ -1,0 +1,200 @@
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\ApplicationInsights.config
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\csc.exe
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\csc.exe.config
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\csc.rsp
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\csi.exe
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\csi.rsp
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\desktop.ini
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\System.AppContext.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\vbc.exe
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\vbc.exe.config
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\vbc.rsp
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\GestControlWeb.dll.config
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\GestControlWeb.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\GestControlWeb.pdb
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Antlr3.Runtime.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\EntityFramework.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.Web.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Newtonsoft.Json.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Owin.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\System.Web.DataVisualization.Design.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\System.Web.DataVisualization.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\System.Web.Optimization.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\System.Web.Providers.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\System.Windows.Forms.DataVisualization.Design.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\System.Windows.Forms.DataVisualization.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\WebGrease.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Antlr3.Runtime.pdb
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.Web.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Newtonsoft.Json.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\System.Web.Optimization.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\EntityFramework.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\System.Web.Providers.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\obj\Release\GestControlWeb.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\obj\Release\GestControlWeb.pdb
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\obj\Release\GestControlWeb.csprojResolveAssemblyReference.cache
+C:\GestControlWeb\GestControlWeb\bin\ApplicationInsights.config
+C:\GestControlWeb\GestControlWeb\bin\roslyn\csc.exe
+C:\GestControlWeb\GestControlWeb\bin\roslyn\csc.exe.config
+C:\GestControlWeb\GestControlWeb\bin\roslyn\csc.rsp
+C:\GestControlWeb\GestControlWeb\bin\roslyn\csi.exe
+C:\GestControlWeb\GestControlWeb\bin\roslyn\csi.rsp
+C:\GestControlWeb\GestControlWeb\bin\roslyn\desktop.ini
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\GestControlWeb\GestControlWeb\bin\roslyn\System.AppContext.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\GestControlWeb\GestControlWeb\bin\roslyn\vbc.exe
+C:\GestControlWeb\GestControlWeb\bin\roslyn\vbc.exe.config
+C:\GestControlWeb\GestControlWeb\bin\roslyn\vbc.rsp
+C:\GestControlWeb\GestControlWeb\bin\roslyn\VBCSCompiler.exe
+C:\GestControlWeb\GestControlWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\GestControlWeb\GestControlWeb\bin\GestControlWeb.dll.config
+C:\GestControlWeb\GestControlWeb\bin\GestControlWeb.dll
+C:\GestControlWeb\GestControlWeb\bin\GestControlWeb.pdb
+C:\GestControlWeb\GestControlWeb\bin\Antlr3.Runtime.dll
+C:\GestControlWeb\GestControlWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\GestControlWeb\GestControlWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\GestControlWeb\GestControlWeb\bin\EntityFramework.dll
+C:\GestControlWeb\GestControlWeb\bin\EntityFramework.SqlServer.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.Web.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.ApplicationInsights.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\GestControlWeb\GestControlWeb\bin\Newtonsoft.Json.dll
+C:\GestControlWeb\GestControlWeb\bin\Owin.dll
+C:\GestControlWeb\GestControlWeb\bin\System.Web.DataVisualization.Design.dll
+C:\GestControlWeb\GestControlWeb\bin\System.Web.DataVisualization.dll
+C:\GestControlWeb\GestControlWeb\bin\System.Web.Optimization.dll
+C:\GestControlWeb\GestControlWeb\bin\System.Web.Providers.dll
+C:\GestControlWeb\GestControlWeb\bin\System.Windows.Forms.DataVisualization.Design.dll
+C:\GestControlWeb\GestControlWeb\bin\System.Windows.Forms.DataVisualization.dll
+C:\GestControlWeb\GestControlWeb\bin\WebGrease.dll
+C:\GestControlWeb\GestControlWeb\bin\Antlr3.Runtime.pdb
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.Web.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.ApplicationInsights.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GestControlWeb\GestControlWeb\bin\Newtonsoft.Json.xml
+C:\GestControlWeb\GestControlWeb\bin\System.Web.Optimization.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\GestControlWeb\GestControlWeb\bin\EntityFramework.xml
+C:\GestControlWeb\GestControlWeb\bin\EntityFramework.SqlServer.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\GestControlWeb\GestControlWeb\bin\System.Web.Providers.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\GestControlWeb\GestControlWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\GestControlWeb\GestControlWeb\obj\Release\GestControlWeb.csprojResolveAssemblyReference.cache
+C:\GestControlWeb\GestControlWeb\obj\Release\GestControlWeb.dll
+C:\GestControlWeb\GestControlWeb\obj\Release\GestControlWeb.pdb
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\GestControlBusiness.dll
+C:\Users\chris\Google Drive\Proyectos\Sistema Monitoreo\Fuentes\Web App\GestControlWeb\GestControlWeb\bin\GestControlBusiness.pdb
+C:\GestControlWeb\GestControlWeb\bin\GestControlBusiness.dll
+C:\GestControlWeb\GestControlWeb\bin\GestControlBusiness.pdb

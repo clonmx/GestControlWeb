@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GestControlWeb.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>GestControl WEB</title>
+    <link rel="stylesheet" href="/Content/css/reset.css" />
+    <link rel="stylesheet" href="/Content/css/960.css" />
+    <link rel="stylesheet" href="/Content/css/main.css" />
+    <link rel="stylesheet" href="/Content/css/style.css" />
+    <link rel="stylesheet" href="/Content/css/style.min.css" />
+    <link rel="stylesheet" href="/Content/css/rcswitcher.css" />
+    <link rel="stylesheet" href="/Content/css/rcswitcher.min.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="main-header" class="container_12 clearfix">
+            <h1 id="logo" class="grid_2 suffix_4"><a href="../">GestControl</a></h1>
+            <nav id="main-nav" class="grid_6">
+                <h1>GESTCONTROL</h1>
+                <ul>
+                    <%--<li class="current"><a href="../">Inicio</a></li>--%>
+                    <li class="current" style="text-align: center;"><a href="/GestControl/Login.aspx">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footerwrap">
+            <div id="fsubwrap1">
+                <footer id="main-footer" class="container_12 clearfix">
+                    <section id="fsub1" class="grid_3">
+                        <h1>Lista Contacto</h1>
+                        <input type="email" placeholder="su@email.com" />
+                        <p class="button"><a href="#">Enviar</a></p>
+                    </section>
+
+                    <section id="fsub2" class="grid_3">
+                        <h1>Dirección</h1>
+                        <p>Brown Norte 100, oficina 502.  Ñuñoa Santiago.</p>
+                    </section>
+
+                    <section id="fsub3" class="grid_3">
+                        <h1>Contactenos</h1>
+                        <p>Teléfono: (569) 6567-7121</p>
+                        <p>ckdevelo@gmail.com</p>
+                    </section>
+
+                    <section id="fsub4" class="grid_3">
+                        <h1>Siganos</h1>
+                        <p class="icon">
+                            <a href="#">
+                                <img src="/Content/img/assets/twitter_32.png" width="32" height="32" alt="twitter icon" /></a>
+                        </p>
+                        <p class="icon">
+                            <a href="#">
+                                <img src="/Content/img/assets/facebook_32.png" width="32" height="32" alt="facebook icon" /></a>
+                        </p>
+                        <p class="icon">
+                            <a href="#">
+                                <img src="/Content/img/assets/flickr_32.png" width="32" height="32" alt="flickr icon" /></a>
+                        </p>
+                        <p class="icon">
+                            <a href="#">
+                                <img src="/Content/img/assets/rss_32.png" width="32" height="32" alt="rss icon" /></a>
+                        </p>
+                    </section>
+                </footer>
+            </div>
+            <!--#fsubwrap1-->
+
+            <div id="fsubwrap2">
+                <footer id="copyright-info" class="container_12">
+                    <small>©2016 Todos los derechos reservados.</small>
+                </footer>
+            </div>
+            <!--#fsubwrap2-->
+        </div>
+        <!--#footerwrap-->
+        <!--#more-products-->
+    </form>
+</body>
+</html>
